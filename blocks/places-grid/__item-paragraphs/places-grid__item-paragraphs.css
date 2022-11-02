@@ -1,0 +1,5 @@
+.places-grid__item-paragraphs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}

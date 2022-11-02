@@ -1,0 +1,14 @@
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-family: Azeret Mono, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  transition: 1s;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid;
+  color: #fdcda6;
+}
