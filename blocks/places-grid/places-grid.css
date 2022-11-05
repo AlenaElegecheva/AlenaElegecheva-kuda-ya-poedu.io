@@ -5,4 +5,5 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(320px, 1fr));
   grid-template-rows: auto;
+  background-color: #f2f2f2;
 }
