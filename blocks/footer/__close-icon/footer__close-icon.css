@@ -1,0 +1,10 @@
+.footer__close-icon {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  cursor: pointer;
+}
+
+.footer__close-icon:hover {
+  transition: 0.5s all;
+}

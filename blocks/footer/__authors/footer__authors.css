@@ -1,0 +1,17 @@
+.footer__authors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 150px;
+  height: 150px;
+  transition: 0.5s all;
+  border-radius: 150px;
+}
