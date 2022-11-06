@@ -1,4 +1,4 @@
-.header__nav_menu {
+.header__nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .header__nav_menu {
+  .header__nav-menu {
     display: none;
   }
 }
