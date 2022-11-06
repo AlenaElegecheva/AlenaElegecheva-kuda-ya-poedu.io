@@ -3,6 +3,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+  src: url(../fonts/AzeretMono-Regular.woff) format("woff");
+  src: url(../fonts/AzeretMono-Regular.woff2) format("woff2");
   src: url(../fonts/AzeretMono-Regular.ttf) format("ttf"),
 }
 
@@ -11,6 +13,8 @@
   font-style: medium;
   font-weight: 500;
   font-display: swap;
+  src: url(../fonts/AzeretMono-Medium.woff) format("woff");
+  src: url(../fonts/AzeretMono-Medium.woff2) format("woff2");
   src: url(../fonts/AzeretMono-Medium.ttf) format("ttf"),
 }
 
@@ -19,6 +23,8 @@
   font-style: semibold;
   font-weight: 600;
   font-display: swap;
+  src: url(../fonts/AzeretMono-SemiBold.woff) format("woff");
+  src: url(../fonts/AzeretMono-SemiBold.woff2) format("woff2");
   src: url(../fonts/AzeretMono-SemiBold.ttf) format("ttf"),
 }
 
@@ -27,5 +33,7 @@
   font-style: bold;
   font-weight: 700;
   font-display: swap;
+  src: url(../fonts/AzeretMono-Bold.woff) format("woff");
+  src: url(../fonts/AzeretMono-Bold.woff2) format("woff2");
   src: url(../fonts/AzeretMono-Bold.ttf) format("ttf"),
 }
