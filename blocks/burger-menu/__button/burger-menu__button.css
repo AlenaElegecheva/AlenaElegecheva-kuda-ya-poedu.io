@@ -1,0 +1,10 @@
+.burger-menu__button {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  z-index: 4;
+}
+
+.burger-menu__button:hover {
+  animation: rotation infinite linear 2s;
+}

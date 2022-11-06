@@ -8,6 +8,12 @@
   background-color: #f2f2f2;
 }
 
+@media screen and (max-width: 1024px) {
+  .places-grid {
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 675px) {
   .places-grid {
     grid-template-columns: repeat(1, minmax(320px, 1fr));

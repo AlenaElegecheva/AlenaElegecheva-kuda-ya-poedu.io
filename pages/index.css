@@ -1,9 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/animation/animation.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__container/burger-menu__container.css);
+@import url(../blocks/burger-menu/__button/burger-menu__button.css);
+@import url(../blocks/burger-menu/__button-close/burger-menu__button-close.css);
+@import url(../blocks/burger-menu/__button-close/_activ/burger-menu__button-close_activ.css);
+@import url(../blocks/burger-menu/__button/_inactive/burger-menu__button_inactive.css);
+@import url(../blocks/burger-menu/__list/burger-menu__list.css);
+@import url(../blocks/burger-menu/__buttons/burger-menu__buttons.css);
+@import url(../blocks/burger-menu/__link/burger-menu__link.css);
+@import url(../blocks/burger-menu/_opened/burger-menu_opened.css);
+
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__nav/header__nav.css);

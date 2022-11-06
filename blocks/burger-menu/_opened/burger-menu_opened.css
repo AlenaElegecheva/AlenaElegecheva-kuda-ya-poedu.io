@@ -1,0 +1,5 @@
+.burger-menu_opened {
+  transform: translate(0, 0) scale(1);
+  pointer-events: all;
+  transition: 1s all;
+}

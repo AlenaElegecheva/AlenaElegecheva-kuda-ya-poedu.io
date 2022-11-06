@@ -1,0 +1,9 @@
+.burger-menu__button-close_activ {
+  display: block;
+  pointer-events: all;
+  transition: 1s all;
+}
+
+.burger-menu__button-close:hover {
+  animation: rotation-reverce infinite linear 2s;
+}

@@ -32,3 +32,25 @@ closeAuthorButton.addEventListener('click', () => {
     footerAuthorsBg.classList.remove('footer__authors_bg_active'); // Убираем активный класс с фона
     footerAuthors.classList.remove('footer__authors_active'); // И с окна
 });
+
+
+
+
+let menuctnr = document.querySelector('.burger-menu__container'); // Окно меню
+let openMenuButton = document.querySelector('.burger-menu__button'); // Кнопкa для показа меню
+let closeMenuButton = document.querySelector('.burger-menu__button-close'); // Кнопка для скрытия меню
+
+
+openMenuButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  menuctnr.classList.add('burger-menu_opened'); // добавили модификатор контейнеру
+  closeMenuButton.classList.add('burger-menu__button-close_activ'); // добавили модификатор контейнеру
+  openMenuButton.classList.add('burger-menu__button_inactive'); // добавили модификатор контейнеру
+})
+
+closeMenuButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  menuctnr.classList.remove('burger-menu_opened'); // удалили модификатор
+  closeMenuButton.classList.remove('burger-menu__button-close_activ'); // удалили модификатор
+  openMenuButton.classList.remove('burger-menu__button_inactive'); // добавили модификатор контейнеру
+})

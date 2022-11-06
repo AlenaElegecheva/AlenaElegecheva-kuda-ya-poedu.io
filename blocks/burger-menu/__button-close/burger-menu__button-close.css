@@ -1,0 +1,8 @@
+.burger-menu__button-close {
+  display: none;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  z-index: 5;
+}
+
