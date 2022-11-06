@@ -1,5 +1,19 @@
 .people {
   box-sizing: border-box;
-  margin: 130px 0;
+  margin: 135px 0;
   padding: 0 68px;
+}
+
+@media screen and (max-width: 1024px) {
+  .people {
+    margin: 100px 0;
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .people {
+    margin: 45px 0;
+    padding: 0 24px;
+  }
 }

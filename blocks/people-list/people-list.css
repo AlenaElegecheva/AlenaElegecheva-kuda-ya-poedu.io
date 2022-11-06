@@ -1,7 +1,29 @@
 .people-list {
   padding: 0;
-  margin: 128px 0 0 0;
+  margin: 128px 0 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .people-list {
+    margin: 100px 0 0;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .people-list {
+    margin: 55px 0 0;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    justify-content: flex-start;
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .people-list {
+    margin: 25px 0 0;
+  }
 }

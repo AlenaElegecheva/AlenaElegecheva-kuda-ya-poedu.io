@@ -9,3 +9,10 @@
   opacity: 0.6;
   transition: 0.5s all;
 }
+
+
+@media screen and (max-width: 600px) {
+  .popup__close-icon {
+    right: 134px;
+  }
+}
