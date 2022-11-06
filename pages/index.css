@@ -49,8 +49,8 @@
 @import url(../blocks/footer/__authors/footer__authors.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__authors/_active/footer__authors_active.css);
-@import url(../blocks/footer/__authors/_bg/footer__authors_bg.css);
-@import url(../blocks/footer/__authors/_bg/_active/footer__authors_bg_active.css);
+@import url(../blocks/footer/__authors-bg/footer__authors-bg.css);
+@import url(../blocks/footer/__authors-bg/_active/footer__authors-bg_active.css);
 @import url(../blocks/footer/__close-icon/footer__close-icon.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);

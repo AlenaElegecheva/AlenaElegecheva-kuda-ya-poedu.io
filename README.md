@@ -17,4 +17,4 @@
 
 **Ссылка на GitHub-page**
 
-[Ссылка на проект в GitHub-Pages] 
+[https://alenaelegecheva.github.io/AlenaElegecheva-kuda-ya-poedu.io/]

@@ -13,14 +13,14 @@ closePopupButton.addEventListener('click', (e) => {
   popup.classList.remove('popup_opened'); // удалили модификатор
 })
 
-let footerAuthorsBg = document.querySelector('.footer__authors_bg'); // Фон окна
+let footerAuthorsBg = document.querySelector('.footer__authors-bg'); // Фон окна
 let footerAuthors = document.querySelector('.footer__authors'); // Само окно
 let openAuthorsButton = document.querySelector('.footer__copyright'); // Кнопкa для показа окна
 let closeAuthorButton = document.querySelector('.footer__close-icon'); // Кнопка для скрытия окна
 
 openAuthorsButton.addEventListener('click', (e) => {
   e.preventDefault();
-  footerAuthorsBg.classList.add('footer__authors_bg_active');
+  footerAuthorsBg.classList.add('footer__authors-bg_active');
 })
 
 openAuthorsButton.addEventListener('click', (e) => {
@@ -29,7 +29,7 @@ openAuthorsButton.addEventListener('click', (e) => {
 })
 
 closeAuthorButton.addEventListener('click', () => {
-    footerAuthorsBg.classList.remove('footer__authors_bg_active'); // Убираем активный класс с фона
+    footerAuthorsBg.classList.remove('footer__authors-bg_active'); // Убираем активный класс с фона
     footerAuthors.classList.remove('footer__authors_active'); // И с окна
 });
 

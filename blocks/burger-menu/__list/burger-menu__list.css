@@ -1,8 +1,14 @@
 .burger-menu__list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   list-style: none;
   column-gap: 10px;
   margin: 33px 20px 33px;
+}
+
+@media screen and (min-width: 425px) {
+  .burger-menu__list {
+    display: none;
+  }
 }
