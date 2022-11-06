@@ -1,5 +1,5 @@
 .burger-menu__container {
-  transform: translate(-100%, 0) scale(0);
+  transform: translate(-40%, 0) scale(0);
   transition: 2s all;
   position: fixed;
   z-index: 2;
