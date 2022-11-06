@@ -9,3 +9,9 @@
   transition: 0.5s all;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .popup__container {
+    width: 250px;
+  }
+}

@@ -1,3 +1,21 @@
 .people-list__item {
   max-width: 235px;
 }
+
+@media screen and (max-width: 1024px) {
+  .people-list__item {
+    margin: 0 10px 0;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .people-list__item {
+    max-width: 275px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .people-list__item {
+    margin: 0;
+  }
+}
