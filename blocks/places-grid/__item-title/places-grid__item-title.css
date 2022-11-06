@@ -2,7 +2,15 @@
   font-family: Azeret Mono, Arial, Helvetica, sans-serif;
   font-size: 33px;
   font-weight: 700;
-  line-height: 38.5px;
+  line-height: 40px;
   margin: 60px 0 0 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-grid__item-title {
+    margin: 45px 0 22px;
+    font-size: 25px;
+    line-height: 25px;
+  }
 }

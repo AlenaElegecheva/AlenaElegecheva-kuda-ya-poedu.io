@@ -1,5 +1,19 @@
 .header {
   box-sizing: border-box;
-  margin: 50px 0 0 0;
+  margin: 50px 0 0;
   padding: 0 68px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 40px 0 0;
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .header {
+    margin: 32px 0 0;
+    padding: 0 24px;
+  }
 }
